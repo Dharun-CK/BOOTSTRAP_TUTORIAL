@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validate</title>
+    <link rel="stylesheet" href="boots.css">
+</head>
+<body>
+<script src="boots.js"></script>    
+
+<form id="form" action="">
+    <div  class="form-floating">
+        <input name="fname"  type="text"id="fname" placeholder="Full Name"> 
+        <label for="fname" class="form-label">Full Name</label>
+        <div class="error"></div>
+    
+    </div>
+    <div class="form-floating ">
+        <input type="email" name="email" class="form-control" id="email" placeholder="E-Mail"> 
+        <label for="email" class="form-label">E-Mail</label>
+        <div class="error"></div>
+    </div>
+    
+    <div class="form-floating ">
+        <input type="password" name="pass" class="form-control" id="pass" placeholder="PassWord"> 
+        <label for="pass" class="form-label">PassWord</label>
+        <div class="error"></div>
+    </div>
+    
+    <div class="form-floating">
+        <input type="password" name="cpass" class="form-control" id="cpass" placeholder="Confirm PassWord"> 
+        <label for="cpass" class="form-label">Confirm PassWord</label>
+        <div class="error"></div>
+    </div>
+    <div class="form-floating">
+        <input type="text" name="position" class="form-control" id="fname" placeholder="Position"> 
+        <label for="position" class="form-label">Position</label>
+        <div class="error"></div>
+    </div>
+    
+      <div class="form-floating ">
+        <select class="form-select" name="dept" id="dept" aria-label="Floating label select example">
+        <option selected >Select Your Department</option>
+         <option value="it"> B.Tech Information Technology</option> 
+         <option value="cse">B.E Computer Science</option>
+        <option value="ece">B.E Electronics And Communication Engineering</option>
+       <option value="eee">B.E Electrical And Electronic Engineering</option>
+        <option value="civil">B.E Civil Engineering</option>
+        <option value="mech">B.E Mechanical Engineering</option>
+    </select>
+        <label for="dept" class="form-label">Department</label>
+        <div class="error"></div>
+    </div>
+    
+    <div class="form-floating">
+        <input type="text" style="height: 100px;" class="form-control" id="comment"  name="comment" placeholder="Thoughts About Portofolio"> 
+        <label for="comment" class="form-label">Comments</label>
+        <div class="error"></div>
+    </div>
+    <div class="form-floating">
+        <input readonly type="text" class="form-control" id="fname" placeholder="name" value="Make Sure All the Inputs  given are Verified!!"> 
+        <label for="fname" class="form-label"></label>
+        <div class="error"></div>
+    </div>
+    <!--<div class="input-group">
+        <input type="text"  id="fname" placeholder="name" value="" readonly> 
+        <label for="fname" class="form-label">Invalid Input !try Again</label>
+    </div>-->
+    
+    <div class="form-floating">
+        <button id="submit" type="submit" class="btn btn-primary">Submit</button>    
+        </div>
+    </form>
+    
+    
+</body>
+</html>

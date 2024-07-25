@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Form-Tutorial</title>
+</head>
+<body>
+    <div class="display-1 d-flex justify-content-center">
+        Forms
+    </div>
+   <!-- <form id="form" action="" class="form-floating needs-validation d-flex justify-content-center" novalidate>
+    <div class="container-form mb-2">
+    <div class="form-floating mb-2">
+        <input type="text" class="form-control" id="fname" placeholder="Full Name" > 
+        <label for="fname" class="form-label">Full Name</label>
+    <div class="valid-feedback">Looks Good</div>
+    <div class="invalid-feedback">Enter a Valid Full Name</div>
+    </div>
+    <div class="form-floating mb-2">
+        <input type="email" class="form-control" id="email" placeholder="E-Mail"> 
+        <label for="email" class="form-label">E-Mail</label>
+        <div class="valid-feedback">Looks Good</div>
+        <div class="invalid-feedback">Enter a Valid Email</div>
+    
+    </div>
+    
+    <div class="form-floating mb-2">
+        <input type="password" class="form-control" id="pass" placeholder="PassWord"> 
+        <label for="pass" class="form-label">PassWord</label>
+        <div class="valid-feedback">Looks Good</div>
+        <div class="invalid-feedback">Enter a Valid password</div>
+    
+    </div>
+    
+    <div class="form-floating mb-2">
+        <input type="password" class="form-control" id="cpass" placeholder="Confirm PassWord"> 
+        <label for="cpass" class="form-label">Confirm PassWord</label>
+        <div class="valid-feedback">Looks Good</div>
+        <div class="invalid-feedback">PassWord is not Matched</div>
+    </div>
+    <div class="form-floating">
+        <input type="text" class="form-control" id="fname" placeholder="Position"> 
+        <label for="position" class="form-label">Position</label>
+        <div class="valid-feedback">Looks Good</div>
+        <div class="invalid-feedback">Enter a Valid Current Position</div>
+    </div>  
+    
+      <div class="form-floating mt-2 mb-2 ">
+        <select class="form-select" id="dept" aria-label="Floating label select example">
+        <option selected >Select Your Department</option>
+         <option value="it"> B.Tech Information Technology</option> 
+         <option value="cse">B.E Computer Science</option>
+        <option value="ece">B.E Electronics And Communication Engineering</option>
+       <option value="eee">B.E Electrical And Electronic Engineering</option>
+        <option value="civil">B.E Civil Engineering</option>
+        <option value="mech">B.E Mechanical Engineering</option>
+    </select>
+        <label for="dept" class="form-label">Department</label>
+        <div class="valid-feedback">Looks Good</div>
+        <div class="invalid-feedback">Enter a Valid Full Name</div>
+    </div>
+    
+    <div class="form-floating">
+        <input type="text" style="height: 100px;" class="form-control" id="comment" placeholder="Thoughts About Portofolio"> 
+        <label for="comment" class="form-label">Comments</label>
+        <div class="error"></div>
+    </div>
+    <div class="form-floating mt-2 mb-2">
+        <input readonly type="text" class="form-control" id="fname" placeholder="name" value="Make Sure All the Inputs  given are Verified!!"> 
+        <label for="fname" class="form-label"></label>
+        <div class="valid-feedback">Looks Good</div>
+        <div class="invalid-feedback">Dept</div>
+    </div>
+    
+    <div class="form-floating">
+        <input type="text" class="form-control is-invalid" id="fname" placeholder="name" value="" readonly> 
+        <label for="fname" class="form-label">Invalid Input !try Again</label>
+    </div>
+    <div class="col-12">
+    <div class="form-floating form-controlform-check">
+        <input  class="form-check-input" id="check-agree" type="checkbox">
+    <label for="check-agree" class="form-check-label">Agree to terms And Condition
+    </label>
+    <div class="invalid-feedback">
+        You Must agree before Submitting
+    </div>
+    </div>
+    </div>
+    <div class="form-floating mt-2 d-flex justify-content-center">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    
+    <script>
+        (function(){
+            'use strict'
+            var forms=document.querySelectorAll('.needs-validation')
+    
+            Array.prototype.slice.call(forms)
+            .forEach(function(form) {
+                form.addEventListener('submit',function(event){
+                    if(!form.checkValidity()){
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                },false)
+            })
+        })()
+    </script>
+    </div>
+</form>-->
+<form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-4">
+      <label for="validationCustom01" class="form-label">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustom02" class="form-label">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustomUsername" class="form-label">Username</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom03" class="form-label">City</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom04" class="form-label">State</label>
+      <select class="form-select" id="validationCustom04" required>
+        <option selected disabled value="">Choose...</option>
+        <option>
+            ...</option>
+      </select>
+      <div class="invalid-feedback">
+        Please select a valid state.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom05" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="validationCustom05" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Agree to terms and conditions
+        </label>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+  </form>
+<script>
+   // xample starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})(
+</script>
+
+</body>
+</html>
